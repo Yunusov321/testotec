@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F1;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007043;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.intro {
+    background-color: #F5D5B3;
+    padding: 60px 40px;
+    text-align: left;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    margin-bottom: 30px;
+}
+
+.intro button {
+    padding: 10px 20px;
+    background-color: #007043;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.collection {
+    padding: 60px 40px;
+}
+
+.collection h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.coffee-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.coffee-item {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.coffee-item img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.coffee-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.footer-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-media a img {
+    width: 24px;
+    margin-right: 10px;
+}
